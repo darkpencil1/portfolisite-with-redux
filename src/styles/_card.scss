@@ -1,0 +1,21 @@
+.art-item{
+    margin-left: 35px;
+    margin-right: 35px;
+    /*margin: 0px 70px;*/
+    .card-body{
+        background-color: rgb(238, 238, 238);
+        color: black;
+    }
+    
+    .card-header{
+        position: absolute;
+        background-color: rgb(255, 240, 31);
+        color: rgb(20, 20, 20);
+    }
+    
+    .card-text{
+        height: 100px;
+        overflow: hidden;
+       
+    }
+}

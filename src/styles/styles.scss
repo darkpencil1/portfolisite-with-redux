@@ -36,6 +36,13 @@ footer{
     padding-bottom: 0px;
 }
 
+.my-footer{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
 #btn-explainer{
 padding-bottom: 20px;
 }
@@ -102,5 +109,9 @@ margin-bottom: 50px;
 img{
     object-fit: cover;
     object-position: center;
+}
+
+#pageWrapper{
+    min-height: 100vh;
 }
 

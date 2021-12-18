@@ -14,9 +14,9 @@ function PageWrapper() {
   const [type, setType] = useState(true)
     return (
       
-      <div className="text-center text-white bg-dark">
-          <div className="container-fluid mx-auto">
-            <div className="container-fluid main-container">
+      <div className="text-center text-white bg-dark" id="pageWrapper">
+        <div className="container-fluid mx-auto">
+          <div className="container-fluid main-container">
             <header className="mb-auto">
               <div>
                 <h3 className="float-md-start mb-0 my-name">Ville Lähetkangas</h3>

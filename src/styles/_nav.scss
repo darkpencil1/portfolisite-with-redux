@@ -10,12 +10,12 @@
     background-color: transparent;
     border-bottom: .25rem solid transparent;
         &:hover{
-            color: none;
+            color: rgba(255, 255, 255, .5);
             border-bottom-color: rgba(255, 255, 255, .25)
         }
         &:focus{
-            color: none;
-            border-bottom-color: rgba(255, 255, 255, .25)
+            color: #fff;
+            border-bottom-color: #fff;
         }
         + .nav-link{
             margin-left: 1rem;

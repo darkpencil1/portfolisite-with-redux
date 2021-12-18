@@ -10,6 +10,7 @@ const SendButton = (props: Props) =>{
 
   function btnClick(){
       (isActive) ? setIsActive(false) : setIsActive(true)
+      //Use localhost address for requests on local environment:
       //Axios.post("http://localhost:5000/api", props.data)
       Axios.post("/api", props.data)
       .then((res) => console.log(res))
@@ -20,10 +21,11 @@ const SendButton = (props: Props) =>{
     isActive ?
         <div>
           <button className="btn btn-primary" id="send-btn" onClick={btnClick}>Send</button>
-          <p>Your message has been sent. I will get back to you soon!</p>
+          <p style={{marginBottom: "0px", paddingBottom: "5px"}}>Your message has been sent. I will get back to you soon!</p>
         </div>
       :
         <button className="btn btn-primary" id="send-btn" onClick={btnClick}>Send</button>
+        
     )
 }
 

@@ -26,7 +26,6 @@ const Home = () =>{
     <>
       
       <div className="text-center text-white bg-dark">
-        
         <div className="container-fluid mx-auto">
 
           <main className="px-3">
@@ -62,8 +61,8 @@ const Home = () =>{
             </div>
           </main>
 
-          <footer className="mt-auto text-white-50 my-footer">
-            <p style={{marginBottom:'0px'}}>Cover template for <a href="https://getbootstrap.com/" className="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" className="text-white">@mdo</a>.</p>
+          <footer className="mt-auto text-white-50">
+            <p className="my-footer" style={{marginBottom:'0px'}}>Ville Lähetkangas 2021</p>
           </footer>
         </div>
       </div>

@@ -18,7 +18,7 @@ function Portfolio(){
 
   const dispatch = useDispatch();
   //Gets the state for type from store
-  const medium = useSelector((state: RootState)=>state.medium.value)
+  const medium = useSelector((state: RootState)=>state.medium.value.medium)
  
 
   return(

@@ -12,8 +12,8 @@ import sibelius from "../images/Sibelius02-web.jpg"
 
 
 const descriptions = [
-  {image: satyr, title: "Digital art", description: "Imagery ranging from themes such as people and space.", featured: false, type: "digital"},
-  {image:sibelius, title: "Traditional art", description: "My traditional art is made on a regular drawing paper with black graphite pencils.", featured: true, type: "traditional"},
+  {image: satyr, title: "Digital art", description: "Imagery ranging from themes such as people and space.", featured: false, type: true},
+  {image:sibelius, title: "Traditional art", description: "My traditional art is made on a regular drawing paper with black graphite pencils.", featured: true, type: false},
 ]
 
 

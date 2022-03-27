@@ -5,7 +5,7 @@ import { createSlice} from "@reduxjs/toolkit";
 
 const initialState = {
     value: {
-        medium: ""
+        medium: null
     }
  
 }
@@ -16,7 +16,8 @@ export const typeSlice = createSlice({
     initialState,
     reducers: {
         changeMedium: (state, action)=>{
-            state.value = action.payload
+            state.value.medium = action.payload
+            console.log("medium: ", action.payload)
         }
     }
 

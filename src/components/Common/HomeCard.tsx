@@ -8,7 +8,7 @@ type Props = {
     title: string,
     description: string,
     image: any,
-    type: string
+    type: boolean
 
 }
 

@@ -16,10 +16,10 @@ function PortfolioButtons(props: Props){
         return(
           <div className="container">
             <div className="d-grid gap-2 d-sm-block">
-                <Button className="btn btn-lg btn-success web-btn mx-2" type="button" id="digitalBtn" aria-expanded="false" onClick={()=>dispatch(changeMedium({medium: "digital"}))} >
+                <Button className="btn btn-lg btn-success web-btn mx-2" type="button" id="digitalBtn" aria-expanded="false" onClick={()=>dispatch(changeMedium({medium: true}))} >
                     Digital
                 </Button>
-                <Button className="btn btn-lg btn-success web-btn mx-2" type="button" id="traditionalBtn"  aria-expanded="false" onClick={()=>dispatch(changeMedium({medium: "traditional"}))}>
+                <Button className="btn btn-lg btn-success web-btn mx-2" type="button" id="traditionalBtn"  aria-expanded="false" onClick={()=>dispatch(changeMedium({medium: false}))}>
                     Traditional
                 </Button>
                 </div>
